@@ -1,0 +1,151 @@
+.header-content .flex-wrapper {
+
+  /* Mobile XS*/
+  @media (max-width: 767px) {
+    display: block;
+
+  }
+}
+
+.header-content__text {
+  padding-top: 21px;
+  width: 540px;
+
+  /*Tablet*/
+  @media (max-width: 1139px) {
+    width: 418px;
+    padding-top: 0;
+  }
+
+  /* Mobile*/
+  @media (max-width: 899px) {
+    margin-top: 1px;
+  }
+
+  /* Mobile XS*/
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+
+
+.header-content__title {
+  margin-bottom: 30px;
+
+  /*Tablet*/
+  @media (max-width: 1139px) {
+    margin-bottom: 22px;
+
+    .h1 {
+      font-size: 58px;
+    }
+  }
+
+  /* Mobile*/
+  @media (max-width: 899px) {
+    margin-bottom: 8px;
+
+    .h1 {
+      font-size: 42px;
+    }
+  }
+
+  /* Mobile XS*/
+  @media (max-width: 767px) {
+    margin-bottom: 16px;
+
+    .h1 {
+      font-size: 32px;
+      line-height: 0.9;
+
+    }
+  }
+}
+
+.header-content__desk {
+  p {
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 1.6;
+
+    /*Tablet*/
+    @media (max-width: 1139px) {
+      margin-bottom: 28px;
+      font-size: 18px;
+    }
+
+    /* Mobile*/
+    @media (max-width: 899px) {
+      width: 354px;
+      margin-bottom: 0;
+      font-size: 16px;
+    }
+
+    /* Mobile XS*/
+    @media (max-width: 767px) {
+      width: 290px;
+      display: none;
+    }
+
+  }
+}
+
+.visible-mobail {
+  display: none;
+
+  /* Mobile XS*/
+  @media (max-width: 767px) {
+    display: block;
+    width: 290px;
+    margin-top: 9px;
+  }
+}
+
+.btn.btn--light {
+  background-color: #EFF7FC;
+  margin-left: 16px;
+}
+
+.header-content__image {
+  margin-top: 7px;
+  box-shadow: 40px 40px rgba(255, 255, 255, 0.5);
+
+  /*Tablet*/
+  @media (max-width: 1139px) {
+    margin-top: 0;
+  }
+
+  /* Mobile XS*/
+  @media (max-width: 767px) {
+    margin-top: 2px;
+  }
+}
+
+.header-content__image img {
+  width: 475px;
+  height: 410px;
+  object-fit: cover;
+
+  /*Tablet*/
+  @media (max-width: 1139px) {
+    width: 376px;
+    height: 325px;
+  }
+
+  /* Mobile*/
+  @media (max-width: 899px) {
+
+    width: 290px;
+    height: 250px;
+  }
+}
+
+.header-content__btn {
+
+  /* Mobile*/
+  @media (max-width: 899px) {
+    display: none;
+  }
+}

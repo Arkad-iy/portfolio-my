@@ -1,0 +1,17 @@
+.social-block {
+  display: flex;
+  gap: 30px;
+
+  /*Tablet*/
+  @media (max-width: 1139px) {
+    gap: 20px;
+  }
+
+  /* Mobile*/
+  @media (max-width: 899px) {
+
+    img {
+      width: 38px;
+    }
+  }
+}

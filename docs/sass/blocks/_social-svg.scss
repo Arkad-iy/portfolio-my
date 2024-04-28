@@ -1,0 +1,30 @@
+.social-svg {
+  display: flex;
+  align-items: center;
+  column-gap: 27px;
+
+  /*Tablet*/
+  @media (max-width: 1199px) {
+    margin-right: -5px;
+    margin-top: 5px;
+  }
+
+  /* Mobile*/
+  @media (max-width: 899px) {
+    display: none;
+  }
+}
+
+// Icons
+
+.svg-ln {
+  width: 32px;
+  height: 32px;
+  fill: #000;
+}
+
+.svg-gh {
+  width: 42px;
+  height: 42px;
+  fill: #000;
+}

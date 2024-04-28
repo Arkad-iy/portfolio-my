@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!-- encoding -->
+  <meta charset="UTF-8" />
+  <!-- Mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title and SEO -->
+  <title>Портфолио</title>
+  <meta name="description" content="Описание страницы" />
+  <meta name="keywords" content="ключевые слова, фразы" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- Open Graph -->
+  <!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Туристическое агентство Форест Тревел" />
+  <meta property="og:description" content="Турпоходы по дикой природе" />
+  <meta property="og:image" content="./img/opengraph.jpg" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#1a60cf">
+  <link rel="shortcut icon" href="./img/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+  <header class="header-top">
+    <div class="container">
+      <div class="flex-wrapper">
+        <!--=====Logo mobile ====-->
+        <div class="header-logo">HTML Верстальщик</div>
+        <!--===== Icon Logo mobile ====-->
+        <button class="header__buttons-nav-icon nav-icon" id="nav-icon">
+          <span class="nav-icon__middle"></span>
+        </button>
+
+        <!--===== Header-menu ====-->
+        <div class="header-menu" id="header-menu">
+          <div class="header-menu__content">
+            <ul class="header-top__nav">
+              <li><a href="#skills">Навыки</a></li>
+              <li><a href="#portfolio">Портфолио</a></li>
+              <li><a href="#timeline">Как я работаю</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+            </ul>
+
+            <!-- Блок контактов для выпадающего меню (start)-->
+            <div class="header-menu__contacts">
+              <div class="social-block social-block--skills">
+                <a href="https://t.me/Qwerty7771"><img src="./img/icons/telegram.png" alt="telegram"></a>
+                <a href="https://vk.com/smh777"><img src="./img/icons/vk.png" alt="vk"></a>
+                <a href="https://www.facebook.com/profile.php?id=100006260436799"><img src="./img/icons/facebook.png"
+                    alt="facebook"></a>
+                <!-- <a href=""><img src="./img/icons/instagram.png" alt="instagram"></a> -->
+                <a href="https://api.whatsapp.com/send/?phone=79992194472&text=Здравствуйте%2C+у+меня+есть+вопрос"><img
+                    src="./img/icons/whatsapp.png" alt="whatsapp"></a>
+              </div>
+              <!-- Блок контактов для выпадающего меню (end)-->
+
+              <a class="links-block underline" href="mailto:yurij.kluchevsky@gmail.com">yurij.kluchevsky@gmail.com</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="social-svg">
+          <!-- <a href="#!">
+            <svg class="svg-ln">
+              <use href="./img/icons/svgSprite.svg#svg-ln"></use>
+            </svg>
+          </a> -->
+          <a href="#!">
+            <svg class="svg-gh">
+              <use href="./img/icons/svgSprite.svg#svg-gh"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="header-content">
+
+    <div class="header-content__wrapper">
+
+      <div class="container">
+
+        <div class="flex-wrapper">
+
+          <div class="header-content__text">
+            <div class="header-content__title">
+              <h1 class="h1 grad-border">Аркадий Самохин</h1>
+            </div>
+            <div class="header-content__desk">
+              <p>Верстальщик сайтов, веб-разработчик. Оперативная верстка. Работаю с соблюдением сроков и выполнением
+                ТЗ.</p>
+              <div class="header-content__btn">
+                <a class="btn" href="#skills">Познакомиться</a>
+                <a class="btn btn--light " href="#contacts">Контакты</a>
+              </div>
+            </div>
+          </div>
+          <div class="header-content__image">
+            <img src="./img/header/image-header.jpg" alt="photo">
+
+            <!-- Блок текста для  mobXS (start)-->
+            <p class="visible-mobail">Верстальщик сайтов, веб-разработчик. Оперативная верстка. Работаю с соблюдением
+              сроков и выполнением
+              ТЗ.</p>
+            <!-- Блок текста для  mobXS (end)-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="header-banner">
+    <img src="./img/header/banner.png" alt="banner">
+  </div>
+
+  <section id="skills" class="header-skills ">
+    <div class="container">
+      <div class="skills-wrapper">
+        <div class="header-skills__col">
+          <p class="h3">Что я умею:</p>
+          <ul class="header-skills__list">
+            <li><span>pixel perfect</span>, полное соответствие макету</li>
+            <li>верстаю с сеткой или без</li>
+            <li>адаптивная верстка под мобильные устройства</li>
+            <li>оптимизация по <span>retina</span> экраны</li>
+            <li>с <span>Bootstrap</span> и без него</li>
+          </ul>
+        </div>
+        <div class="header-skills__col connection">
+          <p class="h3">На связи:</p>
+          <div class="social-block social-block--skills">
+            <a href="https://t.me/Qwerty7771"><img src="./img/icons/telegram.png" alt="telegram"></a>
+            <a href="https://vk.com/smh777"><img src="./img/icons/vk.png" alt="vk"></a>
+            <a href="https://www.facebook.com/profile.php?id=100006260436799"><img src="./img/icons/facebook.png"
+                alt="facebook"></a>
+            <!-- <a href=""><img src="./img/icons/instagram.png" alt="instagram"></a> -->
+            <a href="https://api.whatsapp.com/send/?phone=79992194472&text=Здравствуйте%2C+у+меня+есть+вопрос"><img
+                src="./img/icons/whatsapp.png" alt="whatsapp"></a>
+          </div>
+
+          <a class="links-block" href="mailto:samohinar@yandex.ru">samohinar@yandex.ru</a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="h2 grad-border">Портфолио</h2>
+      </div>
+
+      <div class="portfolio-wrapper">
+        <a href=" http://p99921fa.beget.tech/forest-travel-adaptive/main.html" class="portfolio__card" target="_blank">
+
+          <!-- <picture> -->
+          <img class="portfolio__card-img" src="./img/cards/card1.jpg" alt="Форест тревел">
+          <!-- </picture> -->
+          <div class="portfolio__card-description">
+            <div class="h4">Верстка “Форест тревел”</div>
+            <p>Верстка многостраничного сайта</p>
+          </div>
+        </a>
+        <a href="http://p99921fa.beget.tech/unit-adaptive-form/index.html" class="portfolio__card" target="_blank">
+          <!-- <picture> -->
+          <img class="portfolio__card-img" src="./img/cards/card2.jpg" alt="Юнит">
+          <!-- </picture> -->
+          <div class="portfolio__card-description">
+            <div class="h4">Сайт приложения “Юнит”</div>
+            <p>Верстка лендинга</p>
+          </div>
+        </a>
+        <a href="#" class="portfolio__card none">
+          <!-- <picture> -->
+          <img class="portfolio__card-img" src="./img/cards/card3.jpg" alt="Мир Авто">
+          <!-- </picture> -->
+          <div class="portfolio__card-description">
+            <div class="h4">Верстка “Мир Авто”</div>
+            <p>Верстка многостраничного сайта</p>
+          </div>
+        </a>
+        <a href="#" class="portfolio__card none">
+          <!-- <picture> -->
+          <img class="portfolio__card-img" src="./img/cards/card4.jpg" alt="Мир Авто">
+          <!-- </picture> -->
+          <div class="portfolio__card-description">
+            <div class="h4">Верстка “Мир Авто”</div>
+            <p>Верстка многостраничного сайта</p>
+          </div>
+        </a>
+        <a href="#" class="portfolio__card none">
+          <!-- <picture> -->
+          <img class="portfolio__card-img" src="./img/cards/card5.jpg" alt="Мир Авто">
+          <!-- </picture> -->
+          <div class="portfolio__card-description">
+            <div class="h4">Верстка “Мир Авто”</div>
+            <p>Верстка многостраничного сайта</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="timeline" class="timeline">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="h2 grad-border">Как я работаю</h2>
+      </div>
+      <div class="timeline-wrapper">
+
+        <div class="timeline-item">
+          <div class="item-title-wrapper">
+            <div class="timeline-iteme__title grad-border">
+              Оцениваю макет
+            </div>
+          </div>
+          <p>Оцениваю объем работы, сложность, нюансы. Задаю вопросы.</p>
+          <p class="timeline-item__time">Время: 2 часа</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="item-title-wrapper">
+            <div class="timeline-iteme__title grad-border">
+              ТЗ, смета и график работ
+            </div>
+          </div>
+          <p>Согласовываем техническое задание и график работ по проекту. Осмечиваю стоимость по этапам работы.</p>
+          <p class="timeline-item__time">Время: 2 - 4 часа</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="item-title-wrapper">
+            <div class="timeline-iteme__title grad-border">
+              Вы держите руку на пульсе
+            </div>
+          </div>
+          <p>Выдаю клиенту доступ к GitHub&nbsp; репозиторию и
+            доске Trello.Вы в любое время можете видеть
+            актуальное состояние проекта и задач..</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="item-title-wrapper">
+            <div class="timeline-iteme__title grad-border">
+              Выполняю каждый этап
+            </div>
+          </div>
+          <p>Поочередно выполняю каждый этап работы. Передаю результаты. Заказчик производит поэтапную оплату.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="item-title-wrapper">
+            <div class="timeline-iteme__title grad-border">
+              Финальное ревью проекта
+            </div>
+          </div>
+          <p>Проект готов. Финальное ревью и полировка до идеального состояния. Передаю файлы проекта, заливаю сайт на
+            хостинг
+            заказчика.</p>
+          <p class="timeline-item__time">Время: 2 - 4 часа</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="h2 grad-border">Контакты</h2>
+      </div>
+      <div class="contacts-wrapper">
+        <div class="contacts-col left">
+          <p>Если вы ищите специалиста по верстке сайтов
+            &mdash; напишите мне.</p>
+          <ul class="contacts-connection">
+            <li><span>Email</span><a class="links-block contacts-link"
+                href="mailto:samohinar@yandex.ru">samohinar@yandex.ru</a></li>
+            <li><span>Телефон</span><a class="links-block contacts-link" href="tel:79801234567">+7 (999) 219-44-72</a>
+            </li>
+          </ul>
+          <div class="social-block social-block--contacts">
+            <a href="https://t.me/Qwerty7771"><img src="./img/icons/telegram.png" alt="telegram"></a>
+            <a href="https://vk.com/smh777"><img src="./img/icons/vk.png" alt="vk"></a>
+            <a href="https://www.facebook.com/profile.php?id=100006260436799"><img src="./img/icons/facebook.png"
+                alt="facebook"></a>
+            <!-- <a href="#!"><img src="./img/icons/instagram.png" alt="instagram"></a> -->
+            <a href="https://api.whatsapp.com/send/?phone=79992194472&text=Здравствуйте%2C+у+меня+есть+вопрос"><img
+                src="./img/icons/whatsapp.png" alt="whatsapp"></a>
+          </div>
+        </div>
+
+        <div class="contacts-col right">
+
+          <div class="quotes">
+            <img src="./img/contacts/quotes.png" alt="quotes">
+          </div>
+          <form action="#!" class="contact-form" novalidate>
+
+            <div class="form-item">
+              <span class="fake-placeholder">Ваш Email</span>
+              <input class="form-input form-input-email" name="email" type="email">
+            </div>
+
+            <div class="form-item">
+              <span class="fake-placeholder">Сообщение</span>
+              <textarea class="form-input form-input-message" name="message" id="#">
+              </textarea>
+            </div>
+            <div class="form-item">
+              <input class="btn" type="submit" value="Отправить">
+            </div>
+          </form>
+          <div id="answer"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-portfolio">
+    <div class="container">
+      <div class="footer-author">&copy; 2023 — Аркадий Самохин</div>
+      <p>Веб-разработчик из Юрги, занимаюсь версткой и созданием сайтов.</p>
+      <p>Этот сайт сделал в рамках прохождения обучения
+        по
+        верстке на курсах от <a href="https://webcademy.ru/?ysclid=lowsfh9fmm589516242" target="_blank">WebCademy.ru</a>
+      </p>
+    </div>
+
+  </footer>
+
+  <!-- backtop -->
+  <a href="#top" class="backtop-btn" id="backtop"> &uarr; </a>
+
+  <!-- Jquery-->
+  <script src="./libs/jquery-3.6.0.min.js"></script>
+  <script src="./libs/jquery.validate.min.js"></script>
+  <!-- PageMainNave-->
+  <script src="./js/nav.js"></script>
+  <script src="./js/main.js"></script>
+
+  <!-- MixiTup -->
+  <!-- AOS -->
+  <!-- INITIALIZE AOS -->
+
+</body>
+
+</html>

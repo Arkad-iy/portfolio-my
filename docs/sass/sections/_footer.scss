@@ -1,0 +1,48 @@
+.footer-portfolio {
+  padding-top: 41px;
+  padding-bottom: 50px;
+  background-color: #333;
+  line-height: 1.5;
+
+  /*Tablet*/
+  @media (max-width: 1139px) {
+    padding-top: 32px;
+    padding-bottom: 30px;
+  }
+
+  /* Mobile XS*/
+  @media (max-width: 767px) {
+    padding-top: 29px;
+  }
+
+  p {
+    color: #B0B0B0;
+
+    /*Tablet*/
+    @media (max-width: 1139px) {
+      font-size: 14px;
+    }
+
+    /* Mobile*/
+    @media (max-width: 899px) {
+      &+p {
+        margin-top: 14px;
+      }
+    }
+  }
+
+  a {
+    color: #fff;
+    text-decoration-line: underline;
+  }
+}
+
+.footer-author {
+  line-height: 1.4;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+// .footer-portfolio p+p {
+//   margin-top: 14px;
+// }
